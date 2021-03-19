@@ -13,14 +13,8 @@ This is a startup template for frontend development. Any one can use this templa
 - wow js
 - node sass 
 - font awesome 
-- themify icon
 
 
-#### Use system 
-- Clone this repo 
-- install npm 
 
-```php
-npm install
-```
+
 
