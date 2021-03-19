@@ -1,0 +1,16 @@
+a{
+	display: inline-block;
+	background: $button-bg;
+	padding: 0px 35px;
+	line-height: 4rem;
+	text-align: center;
+	color: $text-white;
+	text-transform: uppercase;
+	font-weight: bold;
+	&:nth-child(1){
+		background: green;
+	}
+	&:hover{
+		color: $text-white;
+	}
+}

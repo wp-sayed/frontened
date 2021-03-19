@@ -1,0 +1,72 @@
+/*=======colors===========*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0px 0px 15px;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px 0px 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  font-size: 0.625 px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*=======Fontsize========*/
+a {
+  display: inline-block;
+  background: #ff3d4f;
+  padding: 0px 35px;
+  line-height: 4rem;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+a:nth-child(1) {
+  background: green;
+}
+a:hover {
+  color: #fff;
+}
+
+/*section title center*/
+.section-title {
+  text-align: center;
+  color: yellow;
+  text-transform: uppercase;
+}
+.section-title h2 {
+  color: yellow;
+  font-weight: bold;
+}
+
+/*section title start*/
