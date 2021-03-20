@@ -8,8 +8,36 @@
 	h2{
 		color: $text-light;
 		font-weight: bold;
+		&::after{
+			content: '';
+			display: block;
+	        width: 80px;
+	        height: 5px;
+	        background: $button-bg;
+	        position: absolute;
+	        left: 45%;
+	        margin: 5px 0px;
+		}
 	}
 }
+
+.section-title-start{
+	color: $text-light;
+	text-transform: uppercase;
+	
+	h2{
+		color: $text-light;
+		font-weight: bold;
+		&::after{
+			content: '';
+			display: block;
+	        width: 80px;
+	        height: 5px;
+	        background: $button-bg;
+		}
+	}
+}
+
 
 
 

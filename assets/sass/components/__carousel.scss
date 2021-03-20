@@ -1,0 +1,97 @@
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+header{
+	&.sticky{
+		position: fixed;
+	    background: rgba(46, 204, 113,1.0);
+	    .main-menu{
+	    		ul{
+	    	     li{
+	    		      a{
+	    			     color: #fff;
+	    		     }
+	    	   }
+	       }
+	    }
+   }
+}
+.slider{
+	.slider-active{
+	   .single-slider{
+	   		background-repeat: no-repeat;
+	   		background-position: center center;
+	   		background-size: cover;
+	   		height: 100vh;
+	   		.slider-content{
+	   			@include mid-con;
+	   			text-align: center;
+	   			text-transform: uppercase;
+	   			h1{
+	   				font-weight: bold;
+	   				font-size: 40px;
+	   				color: rgba(241, 196, 15,1.0);
+	   			}
+	   			p{
+	   				color: $text-white;
+	   			}
+	   		}
+
+	   }
+	   .owl-dots{
+	   	text-align: center;
+	   	position: absolute;
+	   	left: 0;
+	   	right: 0;
+	   	bottom: 2%;
+	   	 .owl-dot{
+	   	 	width: 20px;
+	   	 	height: 20px;
+	   	 	border-radius: 50%;
+	   	 	background: green;
+	   	 	margin: 6px;
+	   	 	&.active{
+	   	 		background: red;
+	   	 	}
+	   	 }
+	   }
+	   .owl-nav{
+	   	 .owl-prev{
+	   	 	position: absolute;
+	   	 	top: 40%;
+	   	 	left: 2%;
+	   	 	translate: translateY(-50%);
+	   	 	text-align: center;
+	   	 	font-weight: bold;
+	   	 	font-size: 60px;
+	   	 	color: $text-white;
+	   	 }
+	   	 .owl-next{
+	   	 	position: absolute;
+	   	 	top: 40%;
+	   	 	right: 2%;
+	   	 	translate: translateY(-50%);
+	   	 	text-align: center;
+	   	 	font-weight: bold;
+	   	 	font-size: 60px;
+	   	 	color: $text-white;
+	   	 }
+	   }
+	   .s-1{
+	   	  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../media/img/s1.jpg);
+	   }
+	   .s-2{
+	   	  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../media/img/s2.jpg);
+	   }
+	   .s-3{
+	   	  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../media/img/s3.jpg);
+	   }
+	   .s-4{
+	   	  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../media/img/s4.jpg);
+	   }
+	}
+}
